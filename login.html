@@ -11,7 +11,7 @@
 		background-color:#5b8548;
 		width:380px;
 		height:260px;
-		margin:140px auto 0px;
+		margin:150px auto 0px;
 		border-radius:5px;
 		
 	}
@@ -21,15 +21,35 @@
 		background-color: white;
 		position:absolute;
 		margin:10px;
-		border-radius:5px;
-		box-shadow:0px 0px 0px black;
-		overflow:hidden;
+
 	}
-	/*é nessa parte*/
+	
 	.input-div{
-		margin:10px;
+		margin:20px;
+		padding:5px;
+		background-color:#f2f2f2;
+		border-radius: 3px;
 	}
-	/*a margem fica desalinhada*/
+	.input-div input{
+		width: 310px;
+		height: 35px;
+		padding-left: 5px;
+	}
+	.button{
+   font-size: 20px;
+   width: 360px;
+   height: 25px;
+   display: inline;
+   text-transform: uppercase;
+   border:none;
+   color:#fff;
+   cursor:pointer;
+   background-color:#7ebd80;
+}
+.link{
+	margin: 30px; 
+}
+	
 </style>
 </head>
 <body>
@@ -37,7 +57,18 @@
 		<div id="login-box-interno">
 			<div class="input-div" id="input-Username">
 				<input type="text" value="Username">
+			</div>
 			<div class="input-div" id="input-Senha">
 				<input type="text" value="Senha">
+			</div>
+			<button class="button" type="button" value="enviar">Login</button>
+			<br/>
+
+
+			
+			<a rel="stylesheet" type="text/css" href="#" class="link"><p>Not registered? Create an account</a></p>
+
+		</div>
+	</div>
 </body>
 </html>
